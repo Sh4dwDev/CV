@@ -59,6 +59,15 @@ a:hover {
     background-size: 100% 1px;
 }
 
+.arrow {
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+a:hover .arrow {
+    transform: translateX(4px);
+}
+
 /* Date and organization text */
 .date,
 .org {
