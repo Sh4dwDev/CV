@@ -64,7 +64,7 @@ a:hover {
     transition: transform 0.2s;
 }
 
-a:hover .arrow {
+.project:hover .arrow {
     transform: translateX(4px);
 }
 
