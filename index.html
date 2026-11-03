@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arne</title>
-    
+
     <link rel="stylesheet" href="styles/index.css">
+
+    <script src="script.js" defer></script>
 
 </head>
 
-<nav class="toolbar no-print">
-    <span class="logo">&gt;_ arne.dev</span>
-    <button id="theme-toggle">Theme</button>
-    <button id="print-btn">Download PDF</button>
-</nav>
-
 <body>
+
+    <nav class="toolbar no-print">
+        <span class="logo">&gt;_ arne.dev</span>
+        <button id="theme-toggle">Theme</button>
+        <button id="print-btn">Download PDF</button>
+    </nav>
 
     <header>
         <h1>Arne Engstrøm Grande</h1>
@@ -28,130 +30,151 @@
         <p>Phone: <a href="tel:+4746963022">+47 469 63 022</a></p>
     </header>
 
-    <h2>Profile</h2>
-    <p>IT Operations apprentice with hands-on experience in hardware, networking and user support, building web apps and games in my spare time. Looking for a junior developer role in Manchester where I can write production-ready code, learn from experienced engineers and grow into a well-rounded developer.</p>
+    <main>
 
-    <h2>Experience</h2>
-    <div>
-        <div>
-            <h3>IT Operations Apprentice - IT Support</h3>
-            <p>Nordland fylkeskommune, Norway</p>
-            <span class="date">August 2024 - Present</span>
-
-            <ul>
-                <li>Repair and maintain school PCs and laptops used by students and staff.</li>
-                <li>Build and document networking labs (GNS3), published as portfolio material.</li>
-                <li>Set up a Microsoft 365 tenant with users and Microsoft Teams as part of a practical assessment.</li>
-            </ul>
-        </div>
-    </div>
-
-    <h2>Projects</h2>
-    <div>
-        <div>
-            <h3>Pong</h3>
-            <p>A simple Pong clone built in Godot and published on itch.io.</p>
-            <a href="">Play on itch.io →</a>
-            <p>Godot</p>
-        </div>
-
-        <div>
-            <h3>Todos</h3>
-            <p>Trello-style kanban board with drag and drop, built with JavaScript, Tailwind and daisyUI.</p>
-            <a href="https://github.com/Sh4dwDev/Todos">View on GitHub →</a>
-            <p>HTML · CSS · JS</p>
-        </div>
-
-        <div>
-            <h3>This CV</h3>
-            <p>Hand-built responsive CV with dark/light theme and a print-to-PDF layout.</p>
-            <a href="https://github.com/Sh4dwDev/CV">View on GitHub →</a>
-            <p>HTML · CSS · JS</p>
-        </div>
-    </div>
-
-    <h2>Skills</h2>
-    <div>
-        <div>
-            <h4>LANGUAGES</h4>
-            <ul class="chips">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>GDScript</li>
-                <li>Python</li>
-            </ul>
-        </div>
-
-        <div>
-            <h4>TOOLS & FRAMEWORKS</h4>
-            <ul class="chips">
-                <li>Godot</li>
-                <li>Git / Github</li>
-                <li>Tailwind CSS</li>
-                <li>React</li>
-                <li>Node.js</li>
-            </ul>
-        </div>
-
-        <div>
-            <h4>IT & SYSTEMS</h4>
-            <ul class="chips">
-                <li>Linux</li>
-                <li>Windows</li>
-                <li>Networking</li>
-                <li>GNS3</li>
-                <li>Hardware repair</li>
-            </ul>
-        </div>
-    </div>
-
-    <h2>Education</h2>
-    <div>
-        <article class="entry">
-            <div class="entry-head">
-                <h3>Vocational Certificate, IT Operations (Fagbrev, IT-driftsfaget)</h3>
-                <span class="date">Expected 2027</span>
-            </div>
-            <p class="org">Nordland fylkeskommune, Norway</p>
-        </article>
+        <section>
+            <h2>Profile</h2>
+            <p>IT Operations apprentice with hands-on experience in hardware, networking and user support, building web apps and games in my spare time. Looking for a junior developer role in Manchester where I can write production-ready code, learn from experienced engineers and grow into a well-rounded developer.</p>
+        </section>
         
-        <article class="entry">
-            <div class="entry-head">
-                <h3>VG2 Information Technology (Informasjonsteknologi)</h3>
-                <span class="date">August 2023 - June 2024</span>
+
+        <section>
+            <h2>Experience</h2>
+
+            <article class="entry">
+                <div class="entry-head">
+                    <h3>IT Operations Apprentice, IT Support</h3>
+                    <span class="date">August 2024 - Present</span>
+                </div>
+                <p class="org">Nordland fylkeskommune, Norway</p>
+                <ul>
+                    <li>Repair and maintain school PCs and laptops used by students and staff.</li>
+                    <li>Build and document networking labs (GNS3), published as portfolio material.</li>
+                    <li>Set up a Microsoft 365 tenant with users and Microsoft Teams as part of a practical assessment.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+
+            <article class="project">
+                <div class="project-head">
+                    <h3>Pong</h3>
+                </div>
+                <p>A simple Pong clone built in Godot and published on itch.io.</p>
+                <a href="https://shadwdev.itch.io/pong">Play on itch.io →</a>
+                <p class="tags">GODOT · GDSCRIPT</p>
+            </article>
+
+            <article class="project">
+                <div class="project-head">
+                    <h3>Todos</h3>
+                </div>
+
+                <p>Trello-style kanban board with drag and drop, built with JavaScript, Tailwind and daisyUI.</p>
+                <a href="https://github.com/Sh4dwDev/Todos">View on GitHub →</a>
+                <p class="tags">HTML · TAILWIND · DAISYUI · JS</p>
+            </article>
+
+            <article class="project">
+                <div class="project-head">
+                    <h3>This CV</h3>
+                </div>
+
+                <p>Hand-built responsive CV with dark/light theme and a print-to-PDF layout.</p>
+                <a href="https://github.com/Sh4dwDev/CV">View on GitHub →</a>
+                <p class="tags">HTML · CSS · JS</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div>
+                <h4>LANGUAGES</h4>
+                <ul class="chips">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>GDScript</li>
+                    <li>Python</li>
+                </ul>
             </div>
-            <p class="org">Kristen Videregående Skole Nordland, Norway</p>
-        </article>
 
-        <article class="entry">
-            <div class="entry-head">
-                <h3>VG1 Information Technology &amp; Media Production (Informasjonsteknologi og Medieproduksjon)</h3>
-                <span class="date">August 2022 - June 2023</span>
+            <div>
+                <h4>TOOLS & FRAMEWORKS</h4>
+                <ul class="chips">
+                    <li>Godot</li>
+                    <li>Git / Github</li>
+                    <li>Tailwind CSS</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
             </div>
-            <p class="org">Kristen Videregående Skole Nordland, Norway</p>
-        </article>
 
-    </div>
+            <div>
+                <h4>IT & SYSTEMS</h4>
+                <ul class="chips">
+                    <li>Linux</li>
+                    <li>Windows</li>
+                    <li>Networking</li>
+                    <li>GNS3</li>
+                    <li>Hardware repair</li>
+                </ul>
+            </div>
+        </section>
 
-    <h2>Languages</h2>
-    <div>
-        <ul>
-            <li>Norwegian (Native)</li>
-            <li>English (Fluent / Professional)</li>
-        </ul>
-    </div>
+        <section>
+            <h2>Education</h2>
+            <article class="entry">
+                <div class="entry-head">
+                    <h3>Vocational Certificate, IT Operations (Fagbrev, IT-driftsfaget)</h3>
+                    <span class="date">Expected 2027</span>
+                </div>
+                <p class="org">Nordland fylkeskommune, Norway</p>
+            </article>
+            
+            <article class="entry">
+                <div class="entry-head">
+                    <h3>VG2 Information Technology (Informasjonsteknologi)</h3>
+                    <span class="date">August 2023 - June 2024</span>
+                </div>
+                <p class="org">Kristen Videregående Skole Nordland, Norway</p>
+            </article>
 
-    <h2>Interests</h2>
-    <div>
-        <ul>
-            <li>Game development & game jams</li>
-            <li>Running a Minecraft server with friends (admin, plugins, moderation)</li>
-            <li>Streaming & content creation</li>
-        </ul>
-    </div>
+            <article class="entry">
+                <div class="entry-head">
+                    <h3>VG1 Information Technology &amp; Media Production (Informasjonsteknologi og Medieproduksjon)</h3>
+                    <span class="date">August 2022 - June 2023</span>
+                </div>
+                <p class="org">Kristen Videregående Skole Nordland, Norway</p>
+            </article>
 
-    <span>References available upon request.</span>
+        </section>
 
+        <section>
+            <h2>Languages</h2>
+            <div>
+                <ul>
+                    <li>Norwegian (Native)</li>
+                    <li>English (Fluent / Professional)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Interests</h2>
+            <div>
+                <ul>
+                    <li>Game development & game jams</li>
+                    <li>Running a Minecraft server with friends (admin, plugins, moderation)</li>
+                    <li>Streaming & content creation</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>References available upon request.</footer>
+    
 </body>
 </html>

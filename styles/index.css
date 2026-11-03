@@ -1,0 +1,37 @@
+/* Colour palette */
+:root {
+    --bg: #0e1116; /* Page background */
+    --surface: #161b22; /* Card background */
+    --text: #e6edf3; /* Main text */
+    --muted: #8b949e; /* Grey text for dates etc. */
+    --accent: #7c5cff; /* Accent colour for links and highlights */
+}
+
+/* Whole page */
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+/* Date and organization text */
+.date,
+.org {
+    color: var(--muted);
+}
+
+/* Keep the content in a readable column */
+header,
+main,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
